@@ -1,7 +1,6 @@
-## Material used for Computer Structure using License [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
+## License [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
 
-
-## Computer Structure
+## Material for Computer Structure (2022-2023)
 
 ### Slides
 
@@ -69,41 +68,41 @@
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lesson</th><th>Unit</th><th>Slides</th></tr>
+  <tr><th>Lesson</th><th>Unit</th><th>Examples</th></tr>
 
   <tr><td>1</td><td>Introduction to computers</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex1-introduction">Ejemplos</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex1-introduction">Introduction</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>2</td><td>Representation</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex2-representation">Ejemplos</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex2-representation">Integer and IEEE754</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>3</td><td>Assembly programming</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex3-assembly">Ejemplos de RISC-V</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex3-assembly">RISC-V assembly</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>4</td><td>The processor</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex4-processor">Ejemplos</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex4-processor">Microprogramming</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>5</td><td>Memory hierarchy</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex5-memory">Ejemplos</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex5-memory">Cache and virtual memory</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>6</td><td>I/O techniques and devices</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex6-io">Ejemplos</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex6-io">Input/Output</a> </li>
       </ul></td>
   </tr>
 
