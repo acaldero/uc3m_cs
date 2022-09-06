@@ -11,13 +11,13 @@
 
   <tr><td>1</td><td>Course overview</td>
       <td><ul type="0">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t0-presentacion-objetivos.pdf">t0-presentacion-objetivos.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t0-welcome.pdf">t0-welcome.pdf</a> </li>
       </ul></td>
   </tr>
 
   <tr><td>1</td><td>Introduction to computers</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t0-welcome.pdf">t0-welcome.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t1-introduction.pdf">t1-introduction.pdf</a> </li>
       </ul></td>
   </tr>
 
