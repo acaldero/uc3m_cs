@@ -1,6 +1,6 @@
 ## License [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
 
-## Material for Computer Structure (2022-2023)
+## Computer Structure (2022-2023)
 
 1. ### <ins>Assembly I: Entry level</ins>
 
