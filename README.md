@@ -90,7 +90,7 @@
 
   <tr><td>3</td><td>Assembly programming</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex3-assembly-riscv">RISC-V assembly</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/ex3-assembly">RISC-V assembly</a> </li>
       </ul></td>
   </tr>
 
