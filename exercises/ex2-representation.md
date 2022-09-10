@@ -2,30 +2,28 @@
 
 ## Computer Structure (2022-2023)
 
-### Exercise 2
+### Exercise 1
 
    (statement) The following numbers are represented in two’s complement using 6 bits.
    Indicate their corresponding decimal value:
-   * 010011
-   * 110111
    * 100000
+   * 010011
     
    (solution) The corresponding decimal value:
-   * 010011: +16+2+1 = 19
-   * 110111: - (001000 + 1) =  -9 
    * 100000: - (011111 + 1) = -32 
+   * 010011: +16+2+1 = 19
 
-### Exercise 5
+### Exercise 2
 
-   (statement) Represent in the single precision IEEE 754 standard the numbers 14 and 3,5.
+   (statement) Represent in the single precision IEEE 754 standard the numbers 15 and 3,75.
     
    (solution) The corresponding value:
-   * 14  -> 8+4+2   -> 1110,0 * 2^0 -> 1,1110 * 2^3 -> 0 10000010 111000...
-   * 3,5 -> 2+1+0,5 ->   11,1 * 2^0 -> 1,11   * 2^1 -> 0 10000000 110000...
+   * 15   -> 8+4+2+1      -> 1111.00 * 2^0 -> 1.1110 * 2^3 -> 0 10000010 111000...
+   * 3.75 -> 2+1+0.5+0.25 ->   11.11 * 2^0 -> 1.1110 * 2^1 -> 0 10000000 111000...
 
-### Exercise 19
+### Exercise 3
 
-   (statement) Indicate the decimal value of the following number represented in the single precision IEEE 754 standard: 0xBE800000.
+   (statement) Indicate the decimal value of the following number represented in the single precision IEEE 754 standard: 0xBF400000.
     
-   (solution) 0xBE800000 -> 1011 1110 1000 0000 0000... -> 1 01111101 000... -> - 1.0 * 2^(-2) -> 0.01 -> -0,25
+   (solución) 0xBF400000 -> 1011 1111 0100 0000... -> 1 01111110 100000... -> -1.1 * 2^(-1) -> 0,110 -> -0,75
 
