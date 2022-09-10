@@ -1,6 +1,12 @@
-## License [CC BY-NC 4.0](http:/creativecommons.org/licenses/by-nc/4.0/) 
+## Material for Computer Structure
 
-## Material for Computer Structure (2022-2023)
+<html>
+<ul>
+<li> License <a href="http:/creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> </li>
+<li> Curso 2022-2023</li>
+</ul>
+</html>
+
 
 ### Slides
 
