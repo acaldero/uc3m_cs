@@ -138,8 +138,8 @@
                 </td>
                 <td class="align-middle">
                     <ol class="p-2">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introdution-proposed"><u>Proposed for L1</u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introdution-solved"><u>Solved for L1</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-proposed"><u>Proposed for L1</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved"><u>Solved for L1</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle">
@@ -303,10 +303,10 @@
                 </td>
                 <td rowspan="3">
                     <ol class="p-2" class="mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-memory-proposed"><u>Proposed for L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-memory-proposed"><u>Proposed for L5-virtual</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-memory-solved"><u>Solved for L5-cache</u><u></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-memory-solved"><u>Solved for L5-virtual</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-proposed"><u>Proposed for L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-proposed"><u>Proposed for L5-virtual</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-solved"><u>Solved for L5-cache</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-solved"><u>Solved for L5-virtual</u><u></u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -342,7 +342,7 @@
                 </td>
                 <td rowspan="2">
                     <ol class="p-2 mt-3">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposedsolved"><u>Proposed for L6</u><u></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposed"><u>Proposed for L6</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-solved"><u>Solved for L6</u><u></u></a></li>
                     </ol>
                 </td>
