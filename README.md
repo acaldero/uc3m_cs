@@ -168,8 +168,8 @@
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-1.pdf"><u>Fundamentals of assembly programming</u></a></li>
                         <ol class="p-2" style="padding-left: 3em !important;" type="A">
-                            <li><a href="https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf"><u>Reference car for RV32I</u></a></li>
-                            <li><a href="https://creatorsim.github.io/creator/"><u>CREATOR simulator</u></a></li>
+                            <li><a href="https://acaldero.github.io/uc3m_cs/refcard/rv32-reference-card.pdf"><u>Reference card for RV32<sub>IMFD</sub></u></a></li>
+                            <li><a href="https://creatorsim.github.io/creator/"><u>The CREATOR simulator</u></a></li>
                         </ol>
                     </ol>
                 </td>
@@ -225,8 +225,8 @@
                     <ol class="p-2" start="5">
                         <li>Examples for CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (T86)</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">Factorial (T111)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (S86)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">Factorial (S111)</a>
                         </div>
                     </ol>
                 </td>
@@ -238,7 +238,7 @@
                     <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-1.pdf"><u>Computer structure and elemental operations</u></a></li>
                         <ol class="p-2" style="padding-left: 3em !important;" type="A">
-                            <li><a href="https://wepsim.github.io/wepsim"><u>WepSIM Simulator</u></a></li>
+                            <li><a href="https://wepsim.github.io/wepsim"><u>The WepSIM Simulator</u></a></li>
                         </ol>
                     </ol>
                 </td>
