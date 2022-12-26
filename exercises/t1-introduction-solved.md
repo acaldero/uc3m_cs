@@ -31,8 +31,7 @@ Answer the following questions:<br>
 
    (solution)
 <html>
-Consider a hypothetical computer with a word width of 24 bits with 55 registers that addresses the memory by bytes.<br>
-Answer the following questions:<br>
+Answers:<br>
 <ol type="a">
   <li>24 bits are used (the word-width of the computer if no other particular information is given).</li>
   <li>24 bits (the word-width if no other particular information is given).</li>
@@ -40,7 +39,7 @@ Answer the following questions:<br>
   <li>You can address 2^24 memory locations. In each memory position is stored a byte.<br>
       Then the memory size is: 2^24 bytes => 2^24 / 2^10 = 2^14 = 16*1024 KiB.
   </li>
-  <li> As there are 55 registers, it is necessary to have round_ex(log2(55)) = 6 bits.</li>
+  <li> As there are 55 registers, it is necessary to have round_ex(ln2(55)) = 6 bits.</li>
 </ol>
 </html>
 
