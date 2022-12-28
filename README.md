@@ -69,47 +69,67 @@
 </html>
 
 
-### Exercises and Examples
+### Exercises
 
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lesson</th><th>Unit</th><th>Examples</th></tr>
+  <tr><th>Lesson</th><th>Unit</th><th>Statements</th><th>Solutions</th></tr>
 
   <tr><td>1</td><td>Introduction to computers</td>
-      <td><ul type="1">
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-proposed">Introduction</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved">Introduction</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>2</td><td>Representation</td>
-      <td><ul type="1">
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-proposed">Integer and IEEE754</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-solved">Integer and IEEE754</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>3</td><td>Assembly programming</td>
-      <td><ul type="1">
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-proposed">RISC-V assembly</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-solved">RISC-V assembly</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>4</td><td>The processor</td>
-      <td><ul type="1">
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-proposed">Microprogramming</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-solved">Microprogramming</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
   <tr><td>5</td><td>Memory hierarchy</td>
-      <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-memory-solved">Cache and virtual memory</a> </li>
-      </ul></td>
+      <td> 
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-proposed">Cache memory</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-proposed">Virtual memory</a> </li>
+      </td>
+      <td> 
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-solved">Cache memory</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-solved">Virtual memory</a> </li>
+      </td>
   </tr>
 
   <tr><td>6</td><td>I/O techniques and devices</td>
-      <td><ul type="1">
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposed">Input/Output</a> </li>
+      </td>
+      <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-solved">Input/Output</a> </li>
-      </ul></td>
+      </td>
   </tr>
 
  </table>
@@ -123,7 +143,7 @@
     <table class="table table-bordered table-sm table-hover px-0 mx-0" style="width:100%;" width="100%">
             <tr>
                 <th width="15%">Lesson</th>
-                <th width="4%">Weak</th>
+                <th width="4%">Week</th>
                 <th width="36%">Slides</th>
                 <th width="20%">Exercices</th>
                 <th width="25%">Examples</th>
