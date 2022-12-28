@@ -252,8 +252,8 @@
                     <ol class="p-2" start="2">
                         <li>Examples for WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=1">lw $reg, dir</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=2">beq $reg, $reg, desplaz</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
                         </div>
                     </ol>
                 </td>
@@ -264,8 +264,8 @@
                     <ol class="p-2" start="5">
                         <li>Examples for WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=0">add $reg, $reg, $reg</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=0">li $reg, valor</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
                         </div>
                     </ol>
                 </td>
@@ -287,8 +287,8 @@
                     <ol class="p-2" start="2">
                         <li>Examples for WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=8">Interruptions</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=9">System call</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interruptions</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">System call</a>
                         </div>
                     </ol>
                 </td>
@@ -355,8 +355,8 @@
                     <ol class="p-2" start="2">
                         <li>Examples for WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=12&amp;simulator=assembly:screen&amp;notify=false">Keyboard and screen</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=Default-MIPS&amp;example=17&amp;simulator=assembly:3dled&amp;notify=false">LED cube</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=14&amp;simulator=assembly:screen&amp;notify=false">Keyboard and screen</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=17&amp;simulator=assembly:3dled&amp;notify=false">LED cube</a>
                         </div>
                     </ol>
                 </td>

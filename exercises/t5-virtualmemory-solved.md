@@ -12,7 +12,7 @@
 
    (statement)
 <html>
-Let be a 20-bit computer with virtual memory paged with 1 KiB pages and a total physical memory of 512 KB.<br>.
+Let be a 20-bit computer with virtual memory paged with 1 KiB pages and a total physical memory of 512 KB.<br>
 It is asked, in a reasoned and brief form:<br>
 <ol type="a">
 <li>What is the format of the virtual address? Indicate the fields and the number of bits in the fields.</li>
