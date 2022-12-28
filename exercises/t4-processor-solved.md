@@ -1,4 +1,4 @@
-## Computer Structure
+## Materials used for Computer Structure
 
 <html>
 <h2><ul>
