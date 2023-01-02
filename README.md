@@ -236,19 +236,19 @@
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
                         <div class="">
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=11">T19</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=12">T29</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=13">T39</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=14">T81</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=15">T82</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=16">T83</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=17">T88</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=18">T89</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=19">T90</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=20">T93</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=21">T95</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=22">T99</a>
-			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=23">T102</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=11">S19</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=12">S29</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=13">S39</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=14">S81</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=15">S82</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=16">S83</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=17">S88</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=18">S89</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=19">S90</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=20">S93</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=21">S95</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=22">S99</a>
+			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=23">S102</a>
                         </div>
                 </td>
             </tr>
@@ -272,8 +272,8 @@
                 <td class="align-middle ">
                         <li>CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">Function call (S86)</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">Factorial (S111)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">S86 (Function call)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">S111 (Factorial)</a>
                         </div>
                 </td>
             </tr>
@@ -297,8 +297,8 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">T52 (add r3, r1, r2)</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">T102 (beq r1, r2, offset)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">S52 (add r3, r1, r2)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">S102 (beq r1, r2, offset)</a>
                         </div>
                 </td>
             </tr>
@@ -307,7 +307,7 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">T116 (lw  r1, addr)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">S116 (lw  r1, addr)</a><br>
                         </div>
                 </td>
             </tr>
@@ -322,13 +322,13 @@
                 <td class="align-middle ">
                         <li>Para WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=24">T58</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=25">T63</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=26">T69</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=27">T78</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=28">T79</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=29">T85</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=30">T89</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=24">S58</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=25">S63</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=26">S69</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=27">S78</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=28">S79</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=29">S85</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=30">S89</a>
                         </div>
                 </td>
             </tr>
@@ -337,8 +337,8 @@
                 <td class="align-middle">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interruptions</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">System call</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">S74-81 (Interruptions)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">S85 (System call)</a>
                         </div>
                 </td>
             </tr>
