@@ -254,8 +254,8 @@
             </tr>
             <tr class="m-2 p-2">
                 <td class="align-middle"><span class="badge bg-info">W-4</span></td>
-                <td class="align-middle" start="3">
-                    <ol class="p-2">
+                <td class="align-middle">
+                    <ol class="p-2" start="3">
                         <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-3.pdf"> <u>Instruction format and addressing modes</u></a></li>
                     </ol>
                 </td>
@@ -297,8 +297,8 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
                         </div>
                 </td>
             </tr>
@@ -307,8 +307,8 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">add r3, r1, r2</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">li r1, value</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">lw  r1, addr</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">beq r1, r2, offset</a>
                         </div>
                 </td>
             </tr>
@@ -338,7 +338,7 @@
                 <td class="align-middle">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interruptions</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">Interruptions</a><br>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">System call</a>
                         </div>
                 </td>

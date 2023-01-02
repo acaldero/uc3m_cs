@@ -23,7 +23,8 @@
 
    (statement)
 <html>
-A computer has a word width that allows you to represent numbers in complement to two in the range [-234, 234-1]. Respond:
+A computer has a word width that allows you to represent numbers in complement to two in the range [-234, 234-1].
+Respond:
 <ol type="a">
   <li>What is the number of bits that store the registers of this computer?</li>
   <li>How much KB of memory can address at most this computer?</li>
