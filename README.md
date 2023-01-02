@@ -157,10 +157,8 @@
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-proposed"><u>Proposed for L1</u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved"><u>Solved for L1</u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle">
                 </td>
@@ -173,10 +171,8 @@
                     </ol>
                 </td>
                 <td class="align-middle">
-                    <ol class="p-2">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-proposed"><u>Proposed for L2 </u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-solved"><u>Solved for L2</u><u></u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle">
                 </td>
@@ -194,10 +190,8 @@
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="p-2" class="mt-3">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-proposed"><u>Proposed for L3</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-solved"><u>Solved for L3</u><u></u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle ">
                         <li>WepSIM:</li>
@@ -289,10 +283,8 @@
                     </ol>
                 </td>
                 <td rowspan="4">
-                    <ol class="p-2" class="mt-3">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-proposed"><u>Proposed for L4</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-solved"><u>Solved for L4</u><u></u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle ">
                         <li>WepSIM:</li>
@@ -351,12 +343,10 @@
                     </ol>
                 </td>
                 <td rowspan="3">
-                    <ol class="p-2" class="mt-3">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-proposed"><u>Proposed for L5-cache</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-proposed"><u>Proposed for L5-virtual</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-solved"><u>Solved for L5-cache</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-solved"><u>Solved for L5-virtual</u><u></u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle ">
                 </td>
@@ -390,10 +380,8 @@
                     </ol>
                 </td>
                 <td rowspan="2">
-                    <ol class="p-2 mt-3">
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposed"><u>Proposed for L6</u><u></u></a></li>
                         <li><a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-solved"><u>Solved for L6</u><u></u></a></li>
-                    </ol>
                 </td>
                 <td class="align-middle ">
                 </td>
