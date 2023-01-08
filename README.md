@@ -13,125 +13,77 @@
 <html>
  <small>
  <table style="width:100%;" width="100%">
-  <tr><th>Lesson</th><th>Unit</th><th>Slides</th></tr>
-
-  <tr><td>1</td><td>Course overview</td>
+  <tr><th></th><th>Unit</th><th>Slides (PDF)</th><th>Exercises</th></tr>
+  <tr><td>0</td><td>Course overview</td>
       <td><ul type="0">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t0-welcome.pdf">t0-welcome.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t0-welcome.pdf">t0-welcome</a> </li>
       </ul></td>
+      <td>
+      </td>
   </tr>
-
   <tr><td>1</td><td>Introduction to computers</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t1-introduction.pdf">t1-introduction.pdf</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t1-introduction.pdf">t1-introduction</a> </li>
       </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-proposed">Statements</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved">Solutions</a> </li>
+      </td>
   </tr>
-
   <tr><td>2</td><td>Representation</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t2-data_representation.pdf">t2-data_representation.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t2-data_representation.pdf">t2-data_representation</a></li>
       </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-proposed">Statements</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-solved">Solutions</a> </li>
+      </td>
   </tr>
-
   <tr><td>3</td><td>Assembly programming</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-1.pdf">t3-assembly-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-2.pdf">t3-assembly-2.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-3.pdf">t3-assembly-3.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-4.pdf">t3-assembly-4.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-1.pdf">t3-assembly-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-2.pdf">t3-assembly-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-3.pdf">t3-assembly-3</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-4.pdf">t3-assembly-4</a></li>
       </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-proposed">Statements</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-solved">Solutions</a> </li>
+      </td>
   </tr>
-
   <tr><td>4</td><td>The processor</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-1.pdf">t4-processor-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-2.pdf">t4-processor-2.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-3.pdf">t4-processor-3.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-1.pdf">t4-processor-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-2.pdf">t4-processor-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t4-processor-3.pdf">t4-processor-3</a></li>
       </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-proposed">Statements</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-solved">Solutions</a> </li>
+      </td>
   </tr>
-
   <tr><td>5</td><td>Memory hierarchy</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-1.pdf">t5-memory-1.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-2.pdf">t5-memory-2.pdf</a></li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-3.pdf">t5-memory-3.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-1.pdf">t5-memory-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-2.pdf">t5-memory-2</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-3.pdf">t5-memory-3</a></li>
       </ul></td>
+      <td>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-proposed">Statements: Cache</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-proposed">Statements: Virtual</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-solved">Solutions: Cache</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-solved">Solutions: Virtual</a> </li>
+      </td>
   </tr>
-
   <tr><td>6</td><td>I/O techniques and devices</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t6-io.pdf">t6-io.pdf</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t6-io.pdf">t6-io</a></li>
       </ul></td>
-  </tr>
-
- </table>
- </small>
-</html>
-
-
-### Exercises
-
-<html>
- <small>
- <table style="width:100%;" width="100%">
-  <tr><th>Lesson</th><th>Unit</th><th>Statements</th><th>Solutions</th></tr>
-
-  <tr><td>1</td><td>Introduction to computers</td>
       <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-proposed">Introduction</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved">Introduction</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposed">Statements</a> </li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-solved">Solutions</a> </li>
       </td>
   </tr>
-
-  <tr><td>2</td><td>Representation</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-proposed">Integer and IEEE754</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-solved">Integer and IEEE754</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>3</td><td>Assembly programming</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-proposed">RISC-V assembly</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t3-assembly-solved">RISC-V assembly</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>4</td><td>The processor</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-proposed">Microprogramming</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t4-processor-solved">Microprogramming</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>5</td><td>Memory hierarchy</td>
-      <td> 
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-proposed">Cache memory</a> </li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-proposed">Virtual memory</a> </li>
-      </td>
-      <td> 
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-cachememory-solved">Cache memory</a> </li>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t5-virtualmemory-solved">Virtual memory</a> </li>
-      </td>
-  </tr>
-
-  <tr><td>6</td><td>I/O techniques and devices</td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-proposed">Input/Output</a> </li>
-      </td>
-      <td>
-        <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t6-io-solved">Input/Output</a> </li>
-      </td>
-  </tr>
-
  </table>
  </small>
 </html>
