@@ -3,7 +3,7 @@
 + License: [GPLv3.0](https://github.com/wepsim/wepsim.github.io/blob/master/LICENSE)
 
 
-# Laboratory 1: assembly, power-consumption and security
+# Laboratory 2: assembly, power-consumption and security
 
 The main goal of the proposed laboratory is to understand the concepts related to assembly programming, but also the impact of power-consumption in security. For this purpose we are going to use the RISC-V assembler.
 In order to become familiar with assembly programming and simulator used, it is recommended to solve the examples available in the simulator.

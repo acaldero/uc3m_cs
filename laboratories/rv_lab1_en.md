@@ -3,7 +3,7 @@
 + License: [GPLv3.0](https://github.com/wepsim/wepsim.github.io/blob/master/LICENSE)
 
 
-# Laboratory 2: microprogramming a compact instruction set
+# Laboratory 1: microprogramming a compact instruction set
 
 The main goal of this laboratory is to learn how to design an instruction set for a computer.
 The main knowledge to be practiced are microprogramming, assembly programming and information representation.

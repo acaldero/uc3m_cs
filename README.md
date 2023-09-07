@@ -162,13 +162,13 @@
                         </div>
                         <li>CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e1">S31</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e2">S32</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e3">S35</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e4">S49</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e6">S54</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e7">S57</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e8">S60</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e1">S31</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e2">S32</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e3">S35</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e4">S49</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e6">S54</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e7">S57</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e8">S60</a>
                         </div>
                 </td>
             </tr>
@@ -218,8 +218,8 @@
                 <td class="align-middle ">
                         <li>CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e13">S86 (Function call)</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e14">S111 (Factorial)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e13">S86 (Function call)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag&example=e14">S111 (Factorial)</a>
                         </div>
                 </td>
             </tr>
