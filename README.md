@@ -162,13 +162,13 @@
                         </div>
                         <li>CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e1">S31</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e2">S32</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e3">S35</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e4">S49</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e6">S54</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e7">S57</a>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e8">S60</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e1">S31</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e2">S32</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e3">S35</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e4">S49</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e6">S54</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e7">S57</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e8">S60</a>
                         </div>
                 </td>
             </tr>
@@ -218,8 +218,8 @@
                 <td class="align-middle ">
                         <li>CREATOR:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e13">S86 (Function call)</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?example_set=uc3m-ec&amp;example=e14">S111 (Factorial)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e13">S86 (Function call)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://creatorsim.github.io/creator/?architecture=rv&example_set=uc3m-ec-ag-ag&example=e14">S111 (Factorial)</a>
                         </div>
                 </td>
             </tr>
@@ -241,8 +241,8 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=0">S52 (add r3, r1, r2)</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">S102 (beq r1, r2, offset)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=0">S52 (add r3, r1, r2)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=2">S102 (beq r1, r2, offset)</a>
                         </div>
                 </td>
             </tr>
@@ -251,7 +251,7 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=2">S116 (lw  r1, addr)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=2">S116 (lw  r1, addr)</a><br>
                         </div>
                 </td>
             </tr>
@@ -281,8 +281,8 @@
                 <td class="align-middle">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=11">S74-81 (Interruptions)</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=12">S85 (System call)</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=11">S74-81 (Interruptions)</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=12">S85 (System call)</a>
                         </div>
                 </td>
             </tr>
@@ -343,11 +343,22 @@
                 <td class="align-middle ">
                         <li>WepSIM:</li>
                         <div class="">
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=14&amp;simulator=assembly:screen&amp;notify=false">Keyboard and screen</a><br>
-                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&amp;examples_set=RISCV&amp;example=17&amp;simulator=assembly:3dled&amp;notify=false">LED cube</a>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=14&simulator=assembly:screen&notify=false">Keyboard and screen</a><br>
+                            <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=17&simulator=assembly:3dled&notify=false">LED cube</a>
                         </div>
                 </td>
             </tr>
         </tbody>
     </table>
 </html>
+
+
+### Laboratories
+
+<html>
+        <ul>
+	<li> <a href="https://acaldero.github.io/uc3m_ec/laboratorios/rv_lab1_en.html">Lab1: Microprogramming a compact instruction set</a></li>
+	<li> <a href="https://acaldero.github.io/uc3m_ec/laboratorios/rv_lab2_en.html">Lab2: Assembly, power-consumption and security</a></li>
+        </ul>
+</html>
+

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D790HJH70R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D790HJH70R');
+    </script>
+
+    <!-- Google tag (gtag.js) - Universal -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80849772-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-80849772-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"    content="user-scalable=yes, initial-scale=1,
+                             width=device-width,
+                             maximum-scale=2.5, minimum-scale=.5" />
+    <meta name="description" content="WepSIM homepage">
+    <meta name="author"      content="WepSIM authors">
+
+    <title>WepSIM</title>
+
+    <link  href="../external/bootstrap.min.css"  rel="stylesheet">
+    <link  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"
+           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="../external/jquery.min.js"></script>
+    <script src="../external/popper.min.js"></script>
+    <script src="../external/bootstrap.min.js"></script>
+    <script src="../external/clipboard.min.js"></script>
+
+    <meta name="google-site-verification" content="gbIx0pN_mlbiXYFvWz9h251qfap7r2W4yMRkS2tVCS4" />
+
+    <style>
+	.carousel .carousel-indicators li {
+	   width: 20px;
+	  height: 20px;
+	  border-radius: 100%;
+	}
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <nav id="page-top" class="navbar navbar-expand-lg bg-dark text-white p-1" id="nav2">
+        <div class="container p-0">&nbsp;</div>
+    </nav>
+
+
+    <!-- "advantages" Section -->
+    <section id="advantages" class="pt-5">
+        <div class="container">
+
+            <a name="lab2" id="lab2"></a>
+	    <br>
+
+
+<ul>
+  <li> <h5>Authors: Alejandro Calderón Mateos & Felix García Carballeira</h5></li>
+  <li> <h5>License: <a href="https://github.com/wepsim/wepsim.github.io/blob/master/LICENSE">GPL v3.0</a></h5></li>
+</ul>
+<br>
+
+
+<h2><b>Laboratory 1: assembly, power-consumption and security</b></h2>
+<hr>
+
+The main goal of the proposed laboratory is to understand the concepts related to assembly programming, but also the impact of power-consumption in security. For this purpose we are going to use the RISC-V assembler.
+In order to become familiar with assembly programming and simulator used, it is recommended to solve the examples available in the simulator.<br>
+<br>
+This laboratory consists of 3 exercises that you can develop and test in <a href="https://wepsim.github.io/wepsim/">WepSIM</a>.
+
+
+<br><br>
+<h3><b>Exercise 1</b></h3>
+<hr>
+The goal of this exercise is to develop in RISC-V<sub>imf32</sub> assembler a function called <b>"string_compare"</b> to work with strings:
+<br><br>
+<ul>
+<pre>
+Function string_compare ( char A[], char B[] ) ;
+</pre>
+</ul>
+
+This function allows to compare two strings so that it is possible to know if the strings stored in memory are the same or not.<br>
+<br>
+This function receives the following arguments in the order given:
+<ul>
+  <li> Argument 1: (A) starting address of a string that ends with the ASCII code 0.
+  <li> Argument 2: (B) starting address of a string ending in end of string (ASCII code 0).
+</ul>
+
+The function returns a single integer that takes one of these three possible values:
+<ul>
+  <li> On error, it returns the integer -1.
+  <li> If the two strings are the same, it returns the integer 1 (one). 
+  <li> If the two strings are different, it returns the integer 0 (zero).
+</ul>
+
+The two possible errors to be considered in this function are that address A is null (zero value) and that address B is null (zero value).<br>
+In the <b>"string_compare"</b> function, in case of finding an error, it must return only the value -1 without doing anything else. In the same way, the function must compare character by character and as soon as it is a different one it must return 0. <br>
+<br>
+
+The following examples illustrate...
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+	<thead>
+	<tr>
+		<td class="col-auto">
+...when the content of two strings is <b class="text-success">different</b>:
+		</td>
+		<td class="col-auto">
+...when the content of two strings that are <b class="text-success">equals</b>:
+		</td>
+		<td class="col-auto">
+...when an <b class="text-danger">error</b> ocurrs:
+		</td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>
+<pre>
+.data
+      # 'u', 'n', 'o', '\0'
+  A: .string <b>"uno"</b>
+      # 'd', 'o', 's', '\0'
+  B: .string <b>"dos"</b>
+
+.text
+
+ string_compare:
+    ...
+    jr ra
+
+ main: 
+    la a0 A
+    la a1 B
+    jal ra string_compare
+
+    #  <- a0 must be 0
+    #     at this point 
+    #     because are 
+    #     differente string
+    ...
+</pre>
+		</td>
+		<td>
+<pre>
+.data
+      # 'u', 'n', 'o', '\0'
+  A: .string <b>"uno"</b> 
+      # 'u', 'n', 'o', '\0'
+  B: .string <b>"uno"</b>
+
+.text
+
+ string_compare:
+    ...
+    jr ra
+
+ main: 
+    la a0 A
+    la a1 B
+    jal ra string_compare
+
+    #  <- a0 must be 1
+    #     at this point 
+    #     because are 
+    #     the same string
+    ...
+</pre>
+		</td>
+		<td>
+<pre>
+.data
+      # 'u', 'n', 'o', '\0'
+  A: .string "uno"
+      # 'u', 'n', 'o', '\0'
+  B: .string "dos"
+
+.text
+
+ string_compare:
+    ...
+    jr ra
+
+ main: 
+    li   a0 <b>0</b>
+    move a1 <b>x0</b>
+    jal ra string_compare
+    #  <- a0 must be -1
+    #     at this point 
+    #     because 
+    #     an error happens
+    ...
+</pre>
+		</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+
+
+<br>
+<span class="btn btn-secondary" data-bs-toggle="collapse" href="#coll_e1_help" role="button" aria-expanded="false" aria-controls="coll_e1_help">
+    Click here for some help on this exercise...
+</span>
+</p>
+<div class="collapse" id="coll_e1_help">
+  <div class="card card-body">
+<br>
+<span>Tip: this subrutine is part of the WepSIM <a href="https://acaldero.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=21">example 21</a></span></br>
+<p></p>
+
+<pre>
+.text
+strcmp2:   # save stack
+           addi sp sp -20
+           sw s0 16(sp)
+           sw s1 12(sp)
+           sw s2  8(sp)
+           sw s3  4(sp)
+           sw s4  0(sp)
+
+           # s3 -> 1 (found) | 0 (not found)
+           # s4 -> # iterations
+           li s3 0
+           li s4 0
+
+       l3: # s0 <- a0[s4]
+           add  s0 a0 s4
+           lb   s0 0(s0)
+           # s1 <- a1[s4]
+           add  s1 a1 s4
+           lb   s1 0(s1)
+           # (a0 == a1) ?
+           bne  s0 s1 no3
+           beq  s0 x0 yes3
+           addi s4 s4 1
+           beq  x0 x0 l3
+
+     yes3: li a0 1
+           beq x0 x0 e3
+      no3: li a0 0
+           beq x0 x0 e3
+
+       e3: # restore stack
+           lw  s4  0(sp)
+           lw  s3  4(sp)
+           lw  s2  8(sp)
+           lw  s1 12(sp)
+           lw  s0 16(sp)
+           addi sp sp 20
+
+           # return
+           jr ra
+</pre>
+  </div>
+</div>
+
+
+
+<br><br>
+<h3><b>Exercise 2</b></h3>
+<hr>
+
+The goal of this exercise is to study the impact of number of clock cycles when using the <b>string_compare</b> function, especially its use for a possible side-channel attack:
+<ul>
+  <li> Because more clock cycles needed by a function should be directed related to the power consumption in a normal CPU, we can know the input, output and the related power consumption for <b>string_compare</b>.
+  <li> In this program, the <b>rdcycle rd</b> RISC-V pseudoinstruction is used.
+</ul>
+This instruction stores in "rd" the number of cycles that have been executed so far.<br>
+<br>
+
+Imagine that a security company uses the <b>string_compare</b> function of Exercise 1 to check if an user's stored key ("stored_key") is the same as the key that the user enters on the keyboard to authenticate.<br>
+<br>
+
+To test such a function, design and implement a program that performs the following actions:
+<ol>
+  <li> The user introduces the key by keyboard and it is stored in "user_key".
+  <li> The <b>string_compare</b> function is called to check that the key "user_key" entered by keyboard is valid by comparing it with the user's key that is stored in "stored_key", so if it returns 1 it is valid and if it returns 0 it is an invalid key.
+  <li> A valid or invalid message is printed on the screen.
+</ol>
+
+The following code fragment shows the skeleton of this program:
+<br><br>
+<ul>
+<pre>
+.data
+    stored_key:     .string   "one"
+    user_key:       .zero     9    
+    valid_msg:      .string   "Valid"
+    no_valid_msg:   .string   "Invalid"
+
+.text
+main:     
+            ...
+            # <- at this point, read the user key from keyboard and store in user_key
+
+            # call to string_compare(stored_key, user_key)
+            ...
+            jal ra string_compare
+            mv  t1 a0         # t1: 1 ok and 0 not valid
+
+            
+            beq zero a0 print_no
+print_yes:  la  a0  valid_msg
+            j end
+print_no:   la  a0 no_valid_msg
+end:        li  a7 4
+            ecall
+</pre>
+</ul>
+
+As an internship student of this company, we suspect that when comparing the key "one" with a string "a" the function only makes one single comparison between letters ('o' versus 'a'), but when comparing "one" with the string "o" the function makes two comparisons ('o' is equal to 'o' and 'n' is not equal to the end of the string). This causes the number of cycles executed and, therefore, the power consumption when the first letter is matched to be higher.<br>
+<br>
+
+To demonstrate this hypothesis, we initially propose the following program skeleton:
+<br><br>
+<ul>
+<pre>
+.data
+    valid_msg:      .string   ":Valid:"
+    no_valid_msg:   .string   ":Invalid:"
+
+    stored_key:     .string  "one"
+    possible_key:   .string  "a"
+
+.text
+main:  ...
+       # Obtain the cycles executed so far
+       rdcycle	t0
+
+       # call ro string_compare (stored_key, possible_key)
+       ...
+       jal ra string_compare
+       mv  t1 a0              # t1: 1 ok y 0 not valid
+
+       # Obtain the cycles executed so far
+       rdcycle  t2
+       sub t0 t2 t0           # t0: Number of elapsed cycles 
+
+       # Print messages
+       beq zero t1 p_no
+p_yes: la  a0 valid_msg
+       j end
+p_no:  la  a0 no_valid_msg
+end:   li  a7 4
+       ecall
+
+       # Print the number of cycles 
+       mv a0 t0
+       li a7 1
+       ecall
+       ...
+</pre>
+</ul>
+
+The objective of this exercise is to modify the previous program to calculate the number of cycles (power consumption) for letters 'a' to 'z' as the first character of the key. That is, it is to find out the power consumption (number of cycles) for the following values of possible_key: 'a', 'b' ... 'z'. Only the 27 lowercase letters of the alphabet.<br>
+<br>
+
+<b>Note</b>, that possible_key is a string, i.e. when you want to test with the letter 'k', the string will have the value "k", which is equivalent to having two characters in the string: one the ASCII code of the 'k' and then the code 0 indicating the end of the string. It is recommended to study how the characters 'a'...'z' are stored using the ASCII code.<br>
+<br>
+
+For this purpose, the function has to be developed: <br><br>
+<ul>
+<pre>
+Function study_energy ( char password[], char dummy[] ) ;
+</pre>
+</ul>
+
+This function prints in each line, for each of the letters, the following information:<br><br>
+<pre>
+letter: number of cycles.
+</pre>
+
+For example, a possible output would be this:<br><br>
+<pre>
+a: 10
+b: 10
+c: 10
+d: 20
+e: 10
+.
+.
+z: 10
+</pre>
+
+Note that in this case the key starts with the letter d, since the number of cycles in this case is higher.<br>
+<br>
+This function receives the following arguments in the given order:
+<ul>
+  <li> Argument 1: (password) starting address of a string with the key to be discovered. Like all strings, it ends with the ASCII code 0 used as the end of the string.
+  <li> Argument 2: (dummy) starting address of a string in memory. This string will always include a single character (in memory it will occupy two bytes: the ASCII code of the letter and the ASCII code 0 used as the end of the string).
+</ul>
+
+The function does not return any value, it simply prints on the console a line for each letter of the alphabet with the format indicated above:<br><br>
+<pre>
+letter: number of cycles
+</pre>
+
+It is mandatory to correctly follow the parameter passing convention described in the course for RISC-V, as well as to respect the function signature (name, number of parameters, order of parameters and value to be returned). Similarly, the <b>study_energy</b> function must use the <b>string_compare</b> function of the first exercise (it must call this function).<br>
+<br>
+It will not be considered valid to develop the code of the functions directly in the main function. You must write the code corresponding to the requested function as a separate function.
+
+
+
+<br><br>
+<h3><b>Exercise 3</b></h3>
+<hr>
+
+The goal of this exercise is to implement a simple function that performs a <b>side-channel attack</b>.<br>
+<b>Consider that the keys are at most 8 characters for the study</b>. 
+<br>
+Through <b>a brute-force attack</b>, we would <b>have to test up to 27<sup>8</sup> (282,429,536,481) possible keys</b>. <br>
+<br>
+<b>But with a side-channel attack</b>, it would be possible to detect the first letter of the key by using the energy consumption (number of cycles executed), and once this character is fixed, it would be possible to study the 27 possible characters for the second letter and so on. In other words, <b>possible combinations are reduced to 27*8 (216 possibilities), in case the key is just 8 characters long</b>.<br>
+<br>
+In Exercise 3, we have to implement in assembler RISC-V<sub>32IMF</sub> a function called "<b>attack</b>" to discover a possible key of up to 8 characters:<br><br>
+<ul>
+<pre>
+Function attack ( char password[], char dummy[] ) ;
+</pre>
+</ul>
+
+This function receives the following arguments in the provided order:
+<ul>
+  <li> Argument 1: (password) starting address of the user key to be discovered. This string ends with the ASCII code 0 used as the end of the string.
+  <li> Argument 2: (dummy) starting address of a string in memory where the detected key will be stored. This string must have space for 9 bytes (8 of the string plus the end of the string).
+</ul>
+
+The function does not return any value, it simply stores in dummy memory address the value of the discovered key. <br>
+<br>
+For the development of this exercise, you can start with the ideas of Exercise 2 and add everything necessary to perform the attack.<br>
+
+Note that this is an exercise, in a real scenario the contents of the user's password would never be known. However, the principle used <a href="https://en.wikipedia.org/wiki/Side-channel_attack)">side-channel attack</a> is the same that has inspired attacks on current processors such as <a href="https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)">spectre</a>.<br>
+
+
+<br>
+<span class="btn btn-secondary" data-bs-toggle="collapse" href="#coll_e3_help" role="button" aria-expanded="false" aria-controls="coll_e3_help">
+    Click here for some help on this exercise...
+</span>
+</p>
+<div class="collapse" id="coll_e3_help">
+  <div class="card card-body">
+<br>
+<span>Tip: this subrutine is part of the WepSIM <a href="https://acaldero.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV&example=21">example 21</a></span></br>
+<p></p>
+
+<pre>
+.data
+   guessing: .byte   0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+   password: .string "srt"
+   nopass:   .string "x"
+
+.text
+strcmp2: ... # see exercise 1
+
+         # return
+         jr ra
+
+main:    # save stack
+         addi sp sp -12
+         sw   ra 8(sp)
+         sw   s0 4(sp)
+         sw   s1 0(sp)
+         
+         # reference value to s1
+         la   a0 nopass
+         la   a1 password
+         rdcycle  s0
+         jal  ra strcmp2
+         rdcycle  s1
+         sub  s1 s1 s0        
+
+         # loop to guess keyword
+         la  t0 guessing
+         li  t3 -1
+         li  t4 1
+     l1: # for (offset=0; t3 != 1; offset++) {
+         beq t3 t4 e1
+       
+         li  t1 'a'   
+         li  t2 'z'
+     l2: # for (t1='a'; t1<'z'; t1++) {
+         beq t1 t2 e2
+       
+         # guessing[offset] = t1
+         sb  t1 0(t0)
+       
+         # t3 = strcpy(guessing, pass)
+         la   a0 guessing
+         la   a1 password
+         sub  t5 t0 a0
+         mv   a0 t0
+         add  a1 a1 t5
+         rdcycle  s0
+         jal  ra strcmp2
+         rdcycle  t3
+         sub  t3 t3 s0
+       
+         # if (a0 == 1) return
+         bne a0 x0 e1
+         bgt t3 s1 e2 # 2+ loops
+       
+         # }
+         addi t1 t1 1
+         beq  x0 x0 l2
+      
+     e2: # }
+         addi t0 t0 1
+         beq  x0 x0 l1
+       
+     e1: # print(guessing)
+         la a0 guessing
+         li a7 4
+         ecall
+
+         # restore stack
+         lw   s0 4(sp)
+         lw   s0 4(sp)
+         lw   ra 8(sp)
+         addi sp sp 12
+
+         # return
+         jr ra
+</pre>
+  </div>
+</div>
+
+
+<br><br>
+<h2><b>Extra material</b></h2>
+<hr>
+
+<h4>Save a <u>checkpoint</u> with WepSIM</h4>
+
+WepSIM allows you to save the entire working session into a single file. This session can include the requested microcode, the assembly code, the states at different execution points, and a recording of the work session. In this way it is more agile to continue the work or share that work among members of the laboratory group.<br>
+<br>
+To do this you have to use what in the WepSIM simulator is called <u>checkpoint</u>. The following are the steps to save a checkpoint:
+<ul>
+	<li> In the run mode menu select the <u>"Checkpoint"</u> option. </li>
+	<li> Enter the file name in the "File name:" field, then press the "Save" button to save the file. </li>
+	<li> <b>Check that the file has been saved correctly and contains everything ordered in the statement.</b> </li>
+</ul>
+<br>
+
+        </div>
+    </section>
+
+
+
+    <!-- "License" -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	 <span class="text-white mr-auto">&copy; 2015-2023</span>
+	 <span class="text-white ml-auto"><a href="http://www.gnu.org/licenses/">LGPL 3.0</a></span>
+    </nav>
+
+</body>
+
+
+<script>
+    var clipboard = new ClipboardJS('.c2c') ;
+
+    $(function () {
+       $('[data-bs-toggle="tooltip"]').tooltip() ;
+    }) ;
+</script>
+
+
+</html>
+
