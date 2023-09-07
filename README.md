@@ -357,8 +357,8 @@
 
 <html>
         <ul>
-	<li> <a href="https://acaldero.github.io/uc3m_cs/laboratorios/rv_lab1_en.html">Lab1: Microprogramming a compact instruction set</a></li>
-	<li> <a href="https://acaldero.github.io/uc3m_cs/laboratorios/rv_lab2_en.html">Lab2: Assembly, power-consumption and security</a></li>
+	<li> <a href="https://acaldero.github.io/uc3m_cs/laboratories/rv_lab1_en.html">Lab1: Microprogramming a compact instruction set</a></li>
+	<li> <a href="https://acaldero.github.io/uc3m_cs/laboratories/rv_lab2_en.html">Lab2: Assembly, power-consumption and security</a></li>
         </ul>
 </html>
 
