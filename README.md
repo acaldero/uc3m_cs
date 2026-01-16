@@ -180,7 +180,7 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                        <li>For WepSIM:</li>
+                        <li>WepSIM:</li>
                         <div class="">
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=11">S19</a>
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=12">S29</a>
@@ -264,7 +264,7 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                        <li>For WepSIM:</li>
+                        <li>WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=24">S58</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=25">S63</a>
