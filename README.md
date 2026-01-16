@@ -180,7 +180,7 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                        <li>Para WepSIM:</li>
+                        <li>For WepSIM:</li>
                         <div class="">
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=11">S19</a>
 			    <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=12">S29</a>
@@ -264,7 +264,7 @@
                     </ol>
                 </td>
                 <td class="align-middle ">
-                        <li>Para WepSIM:</li>
+                        <li>For WepSIM:</li>
                         <div class="">
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=24">S58</a>
                             <a class="btn btn-light  border border-secondary font-weight-bold col-auto mx-1 py-0 rounded" href="https://wepsim.github.io/wepsim/ws_dist/?mode=ep&examples_set=RISCV-AulaGlobal&example=25">S63</a>
@@ -291,7 +291,7 @@
                 <td class="align-middle justify-content-center"><span class="badge bg-info">W-10</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="1">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-1-intro.pdf"><u>Memory hierarchy</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-1.pdf"><u>Memory hierarchy</u></a></li>
                     </ol>
                 </td>
                 <td rowspan="3">
@@ -307,7 +307,7 @@
                 <td class="align-middle justify-content-center"><span class="badge bg-info">W-11</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="2">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-2-cache.pdf"><u>Cache memory</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-2.pdf"><u>Cache memory</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
@@ -317,7 +317,7 @@
                 <td class="align-middle justify-content-center"><span class="badge bg-info">W-12</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="3">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-3-virtual.pdf"><u>Virtual memory</u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t5-memory-3.pdf"><u>Virtual memory</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
