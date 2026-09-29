@@ -30,9 +30,10 @@
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t1-introduction-solved">Solutions</a> </li>
       </td>
   </tr>
-  <tr><td>2</td><td>Representation</td>
+  <tr><td>2</td><td>Representation of information</td>
       <td><ul type="1">
-        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t2-data_representation.pdf">t2-data_representation</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t2-data_representation-1.pdf">t2-data_representation-1</a></li>
+        <li> <a href="https://acaldero.github.io/uc3m_cs/slides/t2-data_representation-2.pdf">t2-data_representation-2</a></li>
       </ul></td>
       <td>
         <li> <a href="https://acaldero.github.io/uc3m_cs/exercises/t2-representation-proposed">Statements</a> </li>
