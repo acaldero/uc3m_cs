@@ -221,8 +221,9 @@
                 <td class="align-middle"><span class="badge bg-info">W-4</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="3">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-3.pdf"> <u>Instruction format and addressing modes</u></a></li>
-                    </ol>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-3.pdf"> <u>Floating point instructions<br></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-4.pdf"> <u>Funcion calls and stack<br></u></a></li>
+					</ol>
                 </td>
                 <td class="align-middle ">
                 </td>
@@ -231,8 +232,7 @@
                 <td class="align-middle"><span class="badge bg-info">W-5</span></td>
                 <td class="align-middle">
                     <ol class="p-2" start="4">
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-4.pdf"> <u>Floating point instructions<br></u></a></li>
-                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-5.pdf"> <u>Funcion calls and stack<br></u></a></li>
+                        <li><a href="https://acaldero.github.io/uc3m_cs/slides/t3-assembly-5.pdf"> <u>Instruction format and addressing modes</u></a></li>
                     </ol>
                 </td>
                 <td class="align-middle ">
